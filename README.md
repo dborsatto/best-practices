@@ -236,7 +236,7 @@ Wherever possibile, it is preferable to use `DateTimeImmutable` in place of `Dat
 
 #### Difference between Value Object and Data Transfer Object
 
-W the context of a Symfony application it is useful to agree on these definitions:
+Within the context of a Symfony application it is useful to agree on these definitions:
 
 - A _value object_ is an immutable object that once it is built, is in a valid state. These objects require all mandatory parameters to be passed using the constructor, and provide no nullable parameters unless the nullability is explicitely defined by domain rules.
   If more ways to create a value object are found, these ways can be expressed using different named constructors. It's considered good practice not to mix usage of regular constructor and named constructors: should the second ones be used, it is recommended to define the actual constructor as private.
