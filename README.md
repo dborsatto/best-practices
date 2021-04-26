@@ -12,7 +12,7 @@ Files for all languages (PHP, Javascript, Twig, YAML, XML, etc) must end with an
 
 Try to remain below 120 characters. Longer lines should be broken up, with the only exceptions being strings, which can go above the limit without requiring breaking up.
 
-In the even of a function parameters being split into multiple lines, each parameter must be placed in a single line:
+In the event of function parameters being split into multiple lines, each parameter must be placed in a single line:
 
 ```php
 // Yes
@@ -27,6 +27,8 @@ $service->action(
 $service->action($parameter1,
     $parameter2, $parameter3, $parameter4);
 ```
+
+There should not be "preemptive" line breaks. If some content can fit in a line, there should be no real reason to introduce a line break which would cause an extra level of indentation.
 
 #### Type declarations and strict typing
 
