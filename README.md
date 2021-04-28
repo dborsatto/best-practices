@@ -388,7 +388,7 @@ class Author
      *     mappedBy="author",
      *     cascade={"persist"},
      *     orphanRemoval=true
-*)
+     * )
      */
     private $blogPosts;
 
